@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/menu_background.jpg") no-repeat center center fixed;
+    /*we add linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), above^ to get transparent dark background, so when the screen size is different and prices are on the pizza image, we still can see the prices*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    font-family: Arial;
+}
+/* So below '#' sign says it's an id not a comment'*/
+
+#small_logo {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+h1 {
+    background-color: #DD7835;
+    display: inline;
+    padding: 8px 22px;
+}
+
+.menu_title {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.menu_list{
+    margin-left: 30px;
+}
+
+.menu_list_item {
+    margin: 30px 0px;
+}
+
+.menu_list_title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    display: inline-block;
+}
+
+.menu_list_price {
+    font-size: 20px;
+    margin-left: 8px;
+    color: #DD7835;
+    width: 70px;
+    display: inline-block;
+    text-align: right;
+}
+
+.menu_list_ingredients {
+    font-size: 14px;
+    color: #C8C8C8;
+    margin-top: 4px;
+    display: block; /* display:block takes a new line for 'span' in html file.
+    We need it as margins will not work for the 'span' at all*/
+    width: 320px; /*if ingrediends line is too long we make 320px limit so it goes to the second line*/
+}
+
+.menu_list_badge {
+    font-size: 9px;
+    background-color: #DD7835;
+    color: black;
+    padding: 3px 8px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
