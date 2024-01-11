@@ -5,4 +5,6 @@ app_name = "menu"   # it's for the link in html file: <a href="{% url 'menu:inde
 
 urlpatterns = [
     path('', views.index, name="index")
+
+
 ]
